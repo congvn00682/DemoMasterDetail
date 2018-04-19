@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Meal{
+class Meal {
     var dateMeal: String
     var photoMeal: UIImage?
     
@@ -17,3 +17,5 @@ class Meal{
         self.photoMeal = photoMeal
     }
 }
+
+

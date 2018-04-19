@@ -15,6 +15,8 @@
 		791ECC972081B3370068F689 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791ECC962081B3370068F689 /* MasterViewController.swift */; };
 		7933B3C22081FDD600144F09 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933B3C12081FDD600144F09 /* Meal.swift */; };
 		7933B3C52081FE1900144F09 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933B3C42081FE1900144F09 /* MealTableViewCell.swift */; };
+		7945B2CD2084EA15008F25F0 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7945B2CC2084EA15008F25F0 /* DataServices.swift */; };
+		79896A492084903600177B32 /* Extention + UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79896A482084903600177B32 /* Extention + UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		791ECC962081B3370068F689 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		7933B3C12081FDD600144F09 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		7933B3C42081FE1900144F09 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		7945B2CC2084EA15008F25F0 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		79896A482084903600177B32 /* Extention + UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + UIImageView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 		791ECC612081AFEB0068F689 /* DemoMasterDetail */ = {
 			isa = PBXGroup;
 			children = (
+				7945B2CB2084EA07008F25F0 /* DataServices */,
 				7933B3C32081FE0900144F09 /* View */,
 				7933B3C02081FD7900144F09 /* Controller */,
 				7933B3BF2081FD6000144F09 /* Model */,
+				79896A472084900200177B32 /* Utilities */,
 				791ECC622081AFEB0068F689 /* AppDelegate.swift */,
 				791ECC662081AFEB0068F689 /* Main.storyboard */,
 				791ECC692081AFEB0068F689 /* Assets.xcassets */,
@@ -95,6 +101,22 @@
 				7933B3C42081FE1900144F09 /* MealTableViewCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7945B2CB2084EA07008F25F0 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				7945B2CC2084EA15008F25F0 /* DataServices.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		79896A472084900200177B32 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				79896A482084903600177B32 /* Extention + UIImageView.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7933B3C22081FDD600144F09 /* Meal.swift in Sources */,
+				7945B2CD2084EA15008F25F0 /* DataServices.swift in Sources */,
 				791ECC952081B0F90068F689 /* DetailViewController.swift in Sources */,
 				791ECC632081AFEB0068F689 /* AppDelegate.swift in Sources */,
+				79896A492084903600177B32 /* Extention + UIImageView.swift in Sources */,
 				791ECC972081B3370068F689 /* MasterViewController.swift in Sources */,
 				7933B3C52081FE1900144F09 /* MealTableViewCell.swift in Sources */,
 			);

@@ -19,6 +19,8 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate ,U
     override func viewDidLoad() {
         super.viewDidLoad()
         scrollView.delegate = self
+        scrollView.minimumZoomScale = 0.3
+        scrollView.maximumZoomScale = 1
         if let dataMeal = receiveMeal {
             textFieldInput.text = dataMeal.dateMeal
             imageView.image = dataMeal.photoMeal
@@ -61,6 +63,8 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate ,U
    
     func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         
+        imageView.sizeToFit()
+        scrollView.contentSize = imageView.frame.size
         return imageView
     }
     
